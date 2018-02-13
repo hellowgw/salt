@@ -1,12 +1,11 @@
 kvm-install:
   pkg.installed:
     - pkgs:
-      - kvm 
-      - python-virtinst 
       - libvirt 
+      - libvirt-python
+      - libvirt-client
       - bridge-utils 
       - virt-manager 
-      - qemu-kvm-tools 
       - virt-viewer 
       - virt-v2v 
       - virt-install
