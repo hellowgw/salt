@@ -1,7 +1,7 @@
 kvm-install:
   pkg.installed:
     - pkgs:
-      - libvirt 
+      - libvirt
       - libvirt-python
       - libvirt-client
       - bridge-utils 
